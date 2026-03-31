@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index3.css">
+</head>
+<body>
+    <nav>
+        <div class=navbar>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="index2.html">Menu</a></li>
+                <li><a href="index3.html">Reservation</a></li>
+                <li><a href="index4.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+<section class="reservation-section">
+    <h1>Reserve Your Table</h1>
+    <p class="description">Book a table with us for a delicious dining experience. Choose a date, time, and party size.</p>
+    <form class="reservation-form" action="#" method="post">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="guest-name">Name</label>
+          <input type="text" id="guest-name" name="guest-name" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="guest-email">Email</label>
+          <input type="email" id="guest-email" name="guest-email" placeholder="you@example.com" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="guest-phone">Phone</label>
+          <input type="tel" id="guest-phone" name="guest-phone" placeholder="+1 (555) 123-4567" required>
+        </div>
+        <div class="form-group">
+          <label for="party-size">Party Size</label>
+          <select id="party-size" name="party-size" required>
+            <option value="" disabled selected>Select size</option>
+            <option value="1">1 person</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+            <option value="5">5 people</option>
+            <option value="6">6+ people</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="reservation-date">Date</label>
+          <input type="date" id="reservation-date" name="reservation-date" required>
+        </div>
+        <div class="form-group">
+          <label for="reservation-time">Time</label>
+          <input type="time" id="reservation-time" name="reservation-time" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="special-requests">Special requests</label>
+        <textarea id="special-requests" name="special-requests" placeholder="Allergies, seating preferences, or other notes"></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn-submit">Reserve Now</button>
+        <p class="form-note">We will confirm your reservation by email as soon as possible.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<body>
+    <footer>
+        <P>&copy 2026 Foodies foods all rights reserved.
+    </footer>
+</body>
+</html>
