@@ -1,0 +1,109 @@
+title {
+    font-size: 2em;
+    flex-wrap: wrap;
+    font-size: larger than normal;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2em;
+}
+header {
+    flex-wrap: wrap;
+    color: orange;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1em;
+    display: block;
+    text-align: center;
+}
+nav {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding: 1em;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1em;
+}
+nav ul li {
+    display: inline;
+    align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: blue;
+}
+footer {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    margin-top: 2em;
+    position: relative;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+label {
+    font-weight: bold;
+    color: orange;
+}
+input[type="text"], input[type="email"], textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+input[type="submit"] {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    background-color: orange;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+input[type="submit"]:hover {    background-color: darkorange;
+}   
